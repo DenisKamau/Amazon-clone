@@ -1,0 +1,77 @@
+.header {
+  background-color: #0f1111;
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.header__logo {
+  width: 100px;
+  object-fit: contain;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 25px;
+  margin-bottom: 18px;
+}
+
+.header__search {
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+
+.header__searchInput {
+  height: 10px;
+  padding: 15px;
+  border: none;
+  outline: none;
+  width: 100%;
+}
+
+.header__searchIcon {
+  background-color: #cd9042;
+  padding: 4px;
+  height: 22px !important;
+}
+
+.header__search > .MuiIconButton-root {
+  padding-left: 0px !important;
+}
+
+.header__link {
+  display: flex;
+  text-decoration: none;
+  padding: 0px 9px 10px;
+  margin-top: 10px;
+  color: white;
+}
+
+.header__option {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.header__optionLineOne {
+  font-size: 11px;
+  color: grey;
+}
+
+.header__optionLineTwo {
+  font-size: 13px;
+  font-weight: 800;
+}
+
+.header__basketCount {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.header__optionBasket {
+  display: flex;
+  margin-top: 5px;
+  align-items: center;
+}
